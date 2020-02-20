@@ -15,7 +15,7 @@ const k_muppet = {
   k_color: 'green',
   k_album: {
     the_muppet_movie: {
-      song_1: 'The Rainbow Connection',
+      song_1: 'Rainbow Connection',
       song_2: 'Moving Right Along',
       song_3: 'Never Before, Never Again',
       song_4: 'I Hope That Something Better Comes Along',
@@ -37,7 +37,7 @@ const [r, o, y, g, b, , v] = colors
 
 const [, , , , , indg, ] = colors
 
-const {k_name: name, k_color: color, k_album: {the_muppet_movie:{song_1: song}}, k_job: job, k_partner: partner} = k_muppet
+const { name, color, song, job, partner} = muppet
 
 const {song_2, song_4 } = k_muppet.k_album.the_muppet_movie
 const {k_job, k_partner } = k_muppet
