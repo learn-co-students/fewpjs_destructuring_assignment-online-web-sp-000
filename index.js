@@ -21,7 +21,7 @@ const k_muppet = {
 			song_4: 'I Hope That Something Better Comes Along',
 		},
 	},
-	k_job: 'Host of The Muppet Show',
+	k_job: 'Host of The Muppet Show', 
 	k_partner: 'Miss Piggy'
 };
 
