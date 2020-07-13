@@ -7,6 +7,7 @@ describe("index.js", () => {
     expect(baa).to.exist
     expect(baa).to.equal("sheep")
     expect(oink).to.exist
+    
     expect(oink).to.equal("pig")
     expect(cluck).to.exist
     expect(cluck).to.equal("chicken")
@@ -63,7 +64,7 @@ describe("index.js", () => {
     expect(indg).to.exist
     expect(indg).to.equal("indigo")
   })
-  
+
   it("Object: uses destructuring to assign all appropriate variables using the keys as the variable names", () => {
     expect(name).to.exist
     expect(name).to.equal("Kermit")
@@ -76,7 +77,7 @@ describe("index.js", () => {
     expect(partner).to.exist
     expect(partner).to.equal("Miss Piggy")
   })
-  
+
   it("Object: uses destructuring to assign Kermit's color, songs 2 and 4, and Kermit's job and partner", () => {
     expect(song_2).to.exist
     expect(song_2).to.equal("Moving Right Along")
