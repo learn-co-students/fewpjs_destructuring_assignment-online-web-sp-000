@@ -28,22 +28,54 @@ const k_muppet = {
 // Strings
 
 // 1. Use destructuring to assign appropriate variables based on the sounds animals make.
+  const [moo , neigh, baa, oink, cluck] = "cow horse sheep pig chicken".split(" ")
+  // split puts it into substring (" ")
+  // moo = "cow"
+  // neigh = "horse"
+  // baa = "sheep"
+  // oink = "pig"
+// cluck = "chicken"
 
 // 2. Bolt the horse wandered off, so just give us four animals, and let's name them Bessie, Dolly, Babe, and Little.
 
+const [Bessie, Dolly, Babe, Little] = "cow sheep pig chicken ".split(" ")
+// Bessie = "cow"
+// Dolly = "sheep"
+// Babe = "pig"
+// Little = "chicken"
+
 // 3. Little the chicken had to go back to the coop, so now we're left with three. Let's use color variables of black_and_white, black, and pink.
+
+const [black_and_white, black, pink] = "cow sheep pig".split(" ")
+// black_and_white = "cow"
+// black = "sheep"
+// pink = "pig"
 
 // Arrays
 
 // 4. Use destructuring to assign appropriate variables using the color names.
 
-// 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
+const [red, orange, yellow, green, blue, indigo, violet] = colors
+// colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+// we just assign each color name respectively
 
-// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg. 
+// 5. Some people have a really hard time picking out indigo, so let's leave that one out, using the first letter of each color as the variable names.
+const [r,o,y,g,b, ,v ] = colors
+// results should be ......
+// const colors = ["red, orange, yellow, green, blue, violet"]
+
+// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
+
+const [, , , , ,indg, ] = colors
 
 // Objects
 
 // 7. Use destructuring to assign all appropriate variables using the keys as the variable names
-
+const { name ,color, song, job, partner} = muppet
+// { object} = { muppet i.e object}
 
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
+
+const { song_2,song_4} = k_muppet.k_album.the_muppet_movie
+// debugger
+const {k_job,k_partner} = k_muppet
