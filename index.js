@@ -10,6 +10,33 @@ const muppet = {
   partner: 'Miss Piggy'
 };
 
+
+
+const sounds = {
+  moo: 'cow',
+  neigh: 'horse',
+  baa: 'sheep',
+  oink: 'pig',
+  cluck: 'chicken'
+};
+
+const names = {
+  Bessie: 'cow',
+  Dolly: 'sheep',
+  Babe: 'pig',
+  Little: 'chicken'
+};
+
+const [moo, neigh, baa, oink, cluck] = farmAnimals.split(' ');
+
+const [Bessie, ,Dolly, Babe, Little] = farmAnimals.split(' ');
+
+const [black_and_white, , black, pink, ] = farmAnimals.split(' ');
+
+const [red, orange, yellow, green, blue, indigo, violet] = colors;
+const [r, o, y, g, b, i, v] = colors;
+const [,,,,, indg,] = colors;
+
 const k_muppet = {
   k_name: 'Kermit',
   k_color: 'green',
@@ -24,6 +51,12 @@ const k_muppet = {
   k_job: 'Host of The Muppet Show',
   k_partner: 'Miss Piggy'
 };
+
+const {name, color, song, job, partner} = muppet;
+
+const {k_name, k_color, k_album , k_job, k_partner} = k_muppet;
+const {song_1, song_2, song_3, song_4} = k_muppet.k_album.the_muppet_movie;
+console.log(song_2)
 
 // Strings
 
