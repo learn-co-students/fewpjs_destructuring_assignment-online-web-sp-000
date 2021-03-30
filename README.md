@@ -144,6 +144,7 @@ const [title, firstName, lastName] = dogsName.split(' ');
 console.log(title, firstName, lastName); // LOG: Sir Woody BarksALot
 ```
 
+
 Because the `split()` method returns an array, we can pick and choose just as we
 did before:
 
